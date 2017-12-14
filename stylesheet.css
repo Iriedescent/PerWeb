@@ -1,0 +1,85 @@
+
+h1{
+  font-family: Copperplate Gothic Light; font-size:30px; text-align: center}
+ 
+h3{
+  font-family: Copperplate Gothic Light; font-size:20px; text-align: center}
+   
+p{font-family: Trebuchet MS; font-size:20px
+     }
+	
+body{background-color: #FFF;}
+
+a:link { text-decoration: none; 
+/*background-color: 998CBF; */
+/*padding: 15px 32px;*/
+		}
+/*a:hover { text-decoration: underline;  color:pink; background-color: B9AFD4; padding: 15px 32px;}*/
+
+a:active {text-decoration: underline; color:pink}
+
+a:visited {text-decoration: none; color:red}
+
+.button { font-family:Trebuchet MS;
+    border: none;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 5px 4px;
+    
+	background-color: 998CBF; 
+	padding: 15px 32px;
+	box-sizing: border-box; }
+.button:hover{
+	 text-decoration: underline; 
+	 color:pink; 
+	 background-color: B9AFD4; 
+	 padding: 15px 32px;
+	 /*font: pink;*/
+	}	
+
+	.buttonActive {
+	font-family:Trebuchet MS;
+    border: none;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 5px 4px;
+  
+	background-color: 998CBF; 
+	padding: 15px 32px;
+	}
+	.picture { margin: 20px;
+    border: 1px solid #ccc;
+    float: left; display:table;
+    }
+  
+	.content{ text-align: center;
+	padding: 10px; }
+  
+	p {font-size: 16px;}
+	
+	
+	/*.header { background-color: F4C4CF;
+    text-align: center; }*/
+	
+	.sidenav { width: 20%;  }
+	
+	.maincontent { width: 80%; float: left; }
+	
+	.row:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+	
+	.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center; }
